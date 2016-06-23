@@ -33,9 +33,9 @@ li a:hover {
     color: red;
 }
 .intro {
-    padding-top: 100px;
+    padding-top: 50px;
     position: fixed;
-    left: 35%;
+    left: 30%;
 
 }
 
@@ -51,20 +51,10 @@ width:100%;
 
 }
 
-.links {
-
-    background-color: #033EAA;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    text-decoration: initial;
-}
 
 .dropbtn {
     background-color: #033EAA;
-    color: white;
+    color: white ;
     padding: 16px;
     font-size: 16px;
     border: none;

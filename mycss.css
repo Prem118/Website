@@ -1,44 +1,17 @@
 body {
 	background-color: #4480EE;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #033EAA;
-}
-
-li {
-    float: left;
-    border-right: 1px solid #bbb;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
+    font-family: arial;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    text-align: justify;
+
 }
 
-li a:hover {
-    background-color: #111;
-    color: red;
-}
 .intro {
     padding-top: 50px;
     position: fixed;
     left: 30%;
 
 }
-
 
 h1 {
 	color: #FFB835;
@@ -51,6 +24,19 @@ width:100%;
 
 }
 
+.btn {
+    background-color: #033EAA;
+    color: white ;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn a:hover {
+    background-color: #111;
+    color: red;
+}
 
 .dropbtn {
     background-color: #033EAA;
@@ -94,3 +80,10 @@ width:100%;
 .dropdown:hover .dropbtn {
     background-color: #033EAA;
 }
+
+form {
+    text-align-last: center;
+    border-style: double;
+    border-width: medium;
+}
+

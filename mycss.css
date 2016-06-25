@@ -85,5 +85,9 @@ form {
     text-align-last: center;
     border-style: double;
     border-width: medium;
+
+    border: 2px solid red;
+    border-radius: 4px;
+    width: 100%
 }
 
